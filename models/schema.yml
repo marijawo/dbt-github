@@ -38,5 +38,4 @@ models:
           - not_null
           - relationships:
               to: ref('stg_customers')
-              field: customer_id 
-              
+              field: customer_id
